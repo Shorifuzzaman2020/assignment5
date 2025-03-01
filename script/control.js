@@ -165,5 +165,8 @@ document.getElementById('go-to-blog').addEventListener('click',function(event){
     event.preventDefault();
     window.location.href='./blog.html';
 })
+document.getElementById('back-the-desk').addEventListener('click', function(event) {
+    window.location.href = 'index.html';
+});
 
 
